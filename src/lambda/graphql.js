@@ -3,8 +3,9 @@ const { ApolloServer, gql } = require("apollo-server-lambda");
 
 const typeDefs = gql`
   type Query {
-    hello: String,
+    hello: String
     yerMom: String
+    dogPhotoUrl: String
   }
 `;
 
@@ -15,7 +16,10 @@ const resolvers = {
     },
     yerMom: (root, args, context) => {
       return "This is yer mom";
-    }
+    },
+   dogPhotoUrl: (root, args, context) => {
+     return "https://images.dog.ceo/breeds/pomeranian/n02112018_1090.jpg";
+  }
   }
 };
 
