@@ -21,6 +21,7 @@ const LambdaDemo = () => (
     >
       {({ data }) =>
         <div>A greeting from the server: {data.hello}<br/>
+        <h1>DOG</h1>
           <img src={data.dogPhotoUrl} />
         </div>}
     </Query>
