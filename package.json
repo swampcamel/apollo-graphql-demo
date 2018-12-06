@@ -3,8 +3,12 @@
   "version": "0.4.0",
   "private": true,
   "dependencies": {
+    "apollo-boost": "^0.1.22",
+    "apollo-server-lambda": "^2.2.6",
+    "graphql": "^14.0.2",
     "node-fetch": "^2.3.0",
     "react": "^16.6.3",
+    "react-apollo": "^2.3.2",
     "react-dom": "^16.6.3",
     "react-scripts": "^2.1.1"
   },
